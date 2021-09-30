@@ -1,13 +1,14 @@
 import firebase from 'firebase';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCbJNhcvKPqajnRFSv56gsOk3iSCGJOumc",
-  authDomain: "lino-96948.firebaseapp.com",
-  projectId: "lino-96948",
-  storageBucket: "lino-96948.appspot.com",
-  messagingSenderId: "1040683672076",
-  appId: "1:1040683672076:web:e2916e7c28864f78d64429",
-  measurementId: "G-8RE8ZB0YKR"
+  apiKey: "AIzaSyAvAafk8j5Act5hhwjCoUHp4ZGIQZVmO6M",
+  authDomain: "olisa-f443d.firebaseapp.com",
+  databaseURL: "https://olisa-f443d-default-rtdb.firebaseio.com",
+  projectId: "olisa-f443d",
+  storageBucket: "olisa-f443d.appspot.com",
+  messagingSenderId: "853898654799",
+  appId: "1:853898654799:web:bcaf1e70a649ad78b4263a",
+  measurementId: "G-771BKZ3H4K"
 };
 
 firebase.initializeApp(firebaseConfig);
