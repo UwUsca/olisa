@@ -1,0 +1,119 @@
+body{
+    margin: 5%;
+    cursor: default;
+}
+@font-face {
+    font-family:'Roboto';
+    src:url("./Roboto-Light.ttf");
+}
+@font-face {
+    font-family:'Geliat';
+    src:url("./Geliat-ExtraLight.otf");
+}
+
+.all{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin-top: -5%;
+}
+
+.imageOlisa{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageOlisa img{
+    justify-self: center;
+    height: 100%;
+    width: 70%;
+}
+
+.olisaLoginItems{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: -5%;
+}
+
+.olisaLoginArea{
+    height: 100%;
+    width: 100%;
+    font-family: Roboto;
+    color: #8e8e8e;
+    font-weight: bold;
+    font-size: 25px;
+}
+.olisaLoginArea td{
+    border-top: solid 35px #FFFFFF;
+}
+.olisaInput{
+    height: 80px;
+    width: 87%;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: solid 2px #b9b9b9;
+}
+.olisaInput::placeholder{
+    font-size: 25px;
+    font-family: Roboto;
+    color: #8e8e8e;
+    opacity: 0.5;
+    font-weight: bolder;
+}
+.olisaTextTop{
+    font-family: Roboto;
+    color: #8e8e8e;
+    font-size: 45px;
+    margin-bottom: 0%;
+    font-weight: bold;
+    margin-bottom: 70px;
+}
+
+.olisaButton{
+    width: 90%;
+    height: 90px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: #cb7cc8;
+    border: 0px;
+    border-radius: 15px;
+}
+.olisaButton:hover{
+    width: 90%;
+    height: 90px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: rgb(179, 93, 176);
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.olisaTextBottom{
+    font-family: Roboto;
+    color: #8e8e8e;
+    font-size: 20px;
+}
+
+.olisaTextLink{
+    font-family: Roboto;
+    color: #cb7cc8;
+    font-weight: 900;
+    text-decoration: none;
+    text-shadow:0px 0px 1px #cb7cc8;
+}
