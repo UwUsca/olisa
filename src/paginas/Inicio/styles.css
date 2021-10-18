@@ -1,0 +1,100 @@
+body{
+    margin: 5%;
+    cursor: default;
+}
+@font-face {
+    font-family:'Roboto';
+    src:url("./Roboto-Light.ttf");
+}
+@font-face {
+    font-family:'Geliat';
+    src:url("./Geliat-ExtraLight.otf");
+}
+
+.all{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imageOlisa{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imageOlisa img{
+    justify-self: center;
+    height: 70%;
+    width: 90%;
+}
+
+.olisaStartItems{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.olisaWelcome-1{
+    font-family: Roboto;
+    color: #8e8e8e;
+    font-size: 45px;
+    margin-bottom: 0%;
+}
+.olisaWelcome-2{
+    font-family: Geliat;
+    color: #cb7cc8;
+    font-size: 200px;
+    margin: 0%;
+    margin-top: -20px;
+    transform: scaleX(1.05);
+    transform-origin: 0 0;
+}
+
+.olisaDesc-Text{
+    font-family: Roboto;
+    color: #8e8e8e;
+    font-size: 30px;
+}
+
+.olisaBottom-Text{
+    font-family: Roboto;
+    color: #8e8e8e;
+    font-size: 20px;
+}
+.olisaBottom-Button{
+    width: 90%;
+    height: 90px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: #cb7cc8;
+    border: 0px;
+    border-radius: 15px;
+}
+.olisaBottom-Button:hover{
+    width: 90%;
+    height: 90px;
+    font-family: Roboto;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 35px;
+    background-color: rgb(179, 93, 176);
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.olisaTextLink{
+    font-family: Roboto;
+    color: #cb7cc8;
+    font-weight: 900;
+    text-decoration: none;
+    text-shadow:0px 0px 1px #cb7cc8;
+}
